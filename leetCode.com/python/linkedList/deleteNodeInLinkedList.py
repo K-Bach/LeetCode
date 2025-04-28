@@ -16,10 +16,7 @@
 # We will build the linked list and pass the node to your function.
 # The output will be the entire list after calling your function.
 
-class ListNode:
-    def __init__(self, val=0, next=None):
-        self.val = val
-        self.next = next
+from classes import ListNode
 
 def deleteNode(node: ListNode):
     nextNode = node.next

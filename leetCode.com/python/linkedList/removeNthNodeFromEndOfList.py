@@ -1,11 +1,7 @@
 # Given the head of a linked list, remove the nth node from the end of the list and return its head.
 
 from typing import Optional
-
-class ListNode:
-    def __init__(self, val=0, next=None):
-        self.val: int = val
-        self.next: ListNode | None = next
+from classes import ListNode
 
 def removeNthFromEnd(head: Optional[ListNode], n: int) -> Optional[ListNode]:
     preHead = ListNode(0, head)
