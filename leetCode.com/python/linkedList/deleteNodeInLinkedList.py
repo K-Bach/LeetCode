@@ -17,9 +17,9 @@
 # The output will be the entire list after calling your function.
 
 class ListNode:
-    def __init__(self, x):
-        self.val: int = x
-        self.next: ListNode | None = None
+    def __init__(self, val=0, next=None):
+        self.val = val
+        self.next = next
 
 def deleteNode(node: ListNode):
     nextNode = node.next
