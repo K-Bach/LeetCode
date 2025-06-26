@@ -7,6 +7,7 @@ LeetCode challenges that i solved on various platforms, including:
     - Strings
     - Linked lists
     - Trees
+    - Sorting and Searching
 
 Challenges solved using these languages:
 - Python
